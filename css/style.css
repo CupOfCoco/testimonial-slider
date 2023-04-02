@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: large;
+    font-weight: 200;
+    font-family: cursive;
+    font-style: normal;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.container{
+    position: relative;
+    background-color: darkslategray;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    top: -20%;
+    border-radius: 50%;
+}
+.text{
+    margin: 20px;
+    padding: 40px;
+}
+.small{
+    margin: 10px;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
